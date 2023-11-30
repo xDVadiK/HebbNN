@@ -11,7 +11,7 @@ namespace HebbNN
         private int imageSize;
         private List<double[]> weights;
         private List<Button> recognizedImage;
-        List<Tuple<double[], double[]>> trainingData;
+        private List<Tuple<double[], double[]>> trainingData;
         
         public Hebb(List<Button> referenceImages, List<Button> recognizedImage, int imageSize)
         {
